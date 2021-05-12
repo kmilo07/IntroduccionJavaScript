@@ -38,12 +38,17 @@ footer {
 }
 .listaHeader li {
   list-style: none;
-  display: inline;
-  margin: 10px;
+  display: inline-block;
 }
 .listaHeader li a {
   text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
   color: #fff;
+  border-radius: 50px;
+}
+.listaHeader li a:hover {
+  background: #3c3c32;
 }
 #h3footer {
   color: #fff;
