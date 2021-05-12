@@ -4,23 +4,47 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 header {
-  height: 120px;
+  height: 80px;
   width: 100%;
   background: #3d66cd;
+  line-height: 80px;
 }
 
 footer {
   height: 100px;
   width: 100%;
   background: #434244;
+  line-height: 100px;
+  text-align: center;
 }
 
 .contenido {
-  height: calc(100vh - 220px);
+  height: calc(100vh - 180px);
 }
-#izquierdoHeader{
+#izquierdoHeader {
   float: left;
+  margin-left: 10px;
+}
+#derechaHeader {
+  float: right;
+  margin-right: 10px;
+}
+#h1Header {
+  color: #fff;
+}
+.listaHeader li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+}
+.listaHeader li a {
+  text-decoration: none;
+  color: #fff;
+}
+#h3footer {
+  color: #fff;
 }

@@ -1,31 +1,43 @@
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Slot</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <script src="script.js"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+  <body>
+    <header>
+      <div id="izquierdoHeader">
+        <h1 id="h1Header">IES</h1>
+      </div>
+      <div id="derechaHeader">
+        <h2 id="h2Header">
+          <ul class="listaHeader">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="juegos.html">Juegos</a></li>
+          </ul>
+        </h2>
+      </div>
+    </header>
+    <div class="contenido">
+      <h1>Este</h1>
 
-<body>
-  <header>
-    <div id="izquierdoHeader">
-      <h1 id="h1Header">IES</h1>
+      <p id="demo">A Paragraph.</p>
+
+      <button type="button" onclick="myFunction()">Try it</button>
+
+      <img
+        id="myImage"
+        src="https://cdn.jsdelivr.net/gh/kmilo07/IntroduccionJavaScript@master/Screenshot%20from%202021-05-11%2016-48-00.png"
+        style="width:100px"
+      />
+      <button onclick="poweronlightbulb()">Turn on the light</button>
+      <button onclick="powerofflightbulb()">Turn off the light</button>
     </div>
-  </header>
-  <div class="contenido">
-
-    <h1> Este </h1>
-
-    <p id="demo">A Paragraph.</p>
-
-    <button type="button" onclick="myFunction()">Try it</button>
-
-    <img id="myImage" src="https://cdn.jsdelivr.net/gh/kmilo07/IntroduccionJavaScript@master/Screenshot%20from%202021-05-11%2016-48-00.png" style="width:100px">
-
-    <button onclick="poweronlightbulb()">Turn on the light</button>
-    <button onclick="powerofflightbulb()">Turn off the light</button>
-  </div>
-  <footer></footer>
-</body>
-
+    <footer>
+      <h3 id="h3footer">&copy; Juan Camilo Gil Córdoba</h3>
+    </footer>
+  </body>
 </html>
